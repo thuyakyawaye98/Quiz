@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_margin="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/itone"/>
+    <TextView
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Name:"/>
+    <EditText
+        android:hint="User Name"
+        android:background="@drawable/edtbackground"
+        android:drawableLeft="@drawable/ic_user"
+        android:drawableTint="@color/colorBlack"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/edtusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number:"/>
+    <EditText
+        android:hint="Phone Number"
+        android:background="@drawable/edtbackground"
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawableTint="@color/colorBlack"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/edtphoneno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:background="@drawable/buttonbackground"
+        android:id="@+id/btntakequiz"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:onClick="BuQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Take Quiz"
+        android:textColor="@color/colorBlack"/>
+</LinearLayout>
